@@ -39,7 +39,6 @@ body {
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 10px;
     overflow: hidden;
-
 }
 
 .navbar {
@@ -54,7 +53,7 @@ body {
     text-decoration: none;
 }
 
-.navbar h2{
+.navbar h2 {
     color: #3FE09B;
 }
 
@@ -107,7 +106,6 @@ body {
 }
 
 .intro h2 {
-    margin-bottom: 5px;
     color: #3FE09B;
     font-size: 30px;
     letter-spacing: 8px;
@@ -115,7 +113,7 @@ body {
     margin-bottom: 10px;
 }
 
-h2 span{
+h2 span {
     font-size: 30px;
     color: #b58ecc;
 }
@@ -154,11 +152,16 @@ h2 span{
 }
 
 .introimg img {
-    border-radius: 50%;
     width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
 }
 
-/*TRABALHOS*/
+
+/* TRABALHOS */
 
 .work {
     padding: 5rem;
@@ -192,7 +195,8 @@ h2 span{
     height: 360px;
 }
 
-/*SUPERFIT*/
+
+/* SUPERFIT */
 
 .cartas2 {
     position: relative;
@@ -230,7 +234,6 @@ h2 span{
     background-color: #5de6de;
     background-image: linear-gradient(315deg, #5de6de 0%, #b58ecc 74%);
     transition: 0.5s all;
-
 }
 
 .cartas2:hover:before {
@@ -283,7 +286,8 @@ h2 span{
     color: white;
 }
 
-/*VOGUE*/
+
+/* VOGUE */
 
 .vogueimg {
     position: relative;
@@ -302,7 +306,6 @@ h2 span{
     background-color: #f9c5d1;
     background-image: linear-gradient(315deg, #f9c5d1 0%, #9795ef 74%);
     transition: 0.5s all;
-
 }
 
 .vogueimg:hover:before {
@@ -355,10 +358,10 @@ h2 span{
     color: white;
 }
 
-/*DODGE*/
+
+/* DODGE */
 
 .dodgeimg {
-
     position: relative;
     width: 300px;
     height: 360px;
@@ -375,7 +378,6 @@ h2 span{
     background-color: #9eabe4;
     background-image: linear-gradient(315deg, #9eabe4 0%, #77eed8 74%);
     transition: 0.5s all;
-
 }
 
 .dodgeimg:hover:before {
@@ -430,8 +432,7 @@ h2 span{
 }
 
 
-
-/*CURRICULO ANTIGO*/
+/* CURRICULO ANTIGO */
 
 .curriculumimg {
     position: relative;
@@ -508,7 +509,9 @@ h2 span{
     color: black;
 }
 
-/*ABOUT ME*/
+
+/* ABOUT ME */
+
 .aboutme {
     margin-top: 6%;
     padding: 5rem;
@@ -644,7 +647,8 @@ h2 span{
     height: 5px;
 }
 
-/*FORMACAO*/
+
+/* FORMACAO */
 
 .formacao {
     padding: 5rem;
@@ -709,7 +713,8 @@ h2 span{
     margin-top: 15px;
 }
 
-/*CONTACTOS*/
+
+/* CONTACTOS */
 
 .contacts {
     padding: 5rem;
@@ -746,9 +751,14 @@ h2 span{
     color: white;
 }
 
-@media (max-width:1285px) {
+
+/* RESPONSIVO */
+
+@media (max-width: 1285px) {
+
     .introimg img {
         width: 250px;
+        height: 250px;
     }
 
     .cartas2 {
@@ -790,6 +800,7 @@ h2 span{
     }
 }
 
+
 .submenu-wrap {
     display: none;
     width: 100%;
@@ -829,7 +840,6 @@ h2 span{
 .submenu a:hover {
     color: #3FE09B;
     cursor: pointer;
-
 }
 
 .submenu-conteudo {
@@ -850,8 +860,10 @@ a.goupbtn {
 
 
 @media (max-width: 1505px) {
+
     .introimg img {
         width: 250px;
+        height: 250px;
     }
 
     .work {
@@ -903,7 +915,9 @@ a.goupbtn {
     }
 }
 
+
 @media (max-width: 1260px) {
+
     .cartas2 {
         width: 200px;
         height: 240px;
@@ -957,7 +971,9 @@ a.goupbtn {
     }
 }
 
+
 @media (max-width: 1077px) {
+
     .work h1 {
         font-size: 23px;
     }
@@ -1027,7 +1043,8 @@ a.goupbtn {
     }
 }
 
-@media (max-width:929px) {
+
+@media (max-width: 929px) {
 
     .container {
         padding: 20px;
@@ -1051,6 +1068,7 @@ a.goupbtn {
 
     .introimg img {
         width: 170px;
+        height: 170px;
     }
 
     .intro h1 {
